@@ -1,0 +1,48 @@
+header {
+  background-color: #0b5ed7;
+  font-size: 30px;
+}
+
+p {
+  color:white;
+}
+
+a {
+  color: rgb(202, 131, 0);
+  text-decoration: none;
+  transition: all 1s;
+}
+
+a:hover {
+  color: #777;
+  transition: all 1s;
+}
+
+.main-link {
+  color: #0b5ed7;
+}
+
+ul {
+  margin: 0;
+}
+
+.elem {
+  border: solid 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 33%;
+  margin-bottom: 5px;
+}
+.title-elem {
+  display: flex;
+  justify-content: space-between;
+}
+.name-elem {
+  font-size: 20px;
+  max-width: 300px;
+}
+.list-elem {
+  width: 100%;
+  justify-content: space-between;
+}
